@@ -27,10 +27,12 @@ h1 {
   color: #2874A6;
 }
 h4 {
+  margin: 8px 0px;
   font-size: 14px;
-  color: #34495E;
+  color: #1F618D;
 }
 h2 {
+  margin: 8px 0px;
   font-size: 16px;
   letter-spacing: 1px;
   color: #2874A6;
@@ -68,6 +70,7 @@ li {
 }
 .one, .second, .three {
   padding-left: 20px;
+  margin-top: 10px;
 }
 .one:before, .second:before, .three:before  {
   color: #FDFEFE;
@@ -82,17 +85,17 @@ li {
 .one:before {
   content: '1';
   left: -20px;
-  top: 50px;
+  top: 35px;
 }
 .second:before {
   content: '2';
   left: -20px;
-  top: 174px;
+  top: 124px;
 }
 .three:before {
   content: '3';
   left: -20px;
-  top: 320px;
+  top: 230px;
 }
 .p1, .p2, .p3 {
   padding-top: 4px;
@@ -116,6 +119,7 @@ li {
 }
 .second-list {
   list-style: none;
+  margin-top: 8px;
 }
 .round::before {
   content: url('../img/arrow.png');
